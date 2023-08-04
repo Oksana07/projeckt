@@ -63,7 +63,6 @@ img {
   background-repeat: no-repeat;
   width: 186px;
   height: 740px;
-  margin-left: 100px;
   margin-top: 39px;
 }
 
@@ -141,7 +140,6 @@ img {
   background-color: bisque;
   background-size: cover;
   background-position: center;
-  /* background-attachment: fixed; */
   object-fit: cover;
 }
 
