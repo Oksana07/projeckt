@@ -58,7 +58,7 @@ img {
   background-repeat: no-repeat;
   width: 186px;
   height: 72px;
-  margin-left: 300px;
+  margin-left: 100px;
   margin-top: 39px;
 }
 
@@ -91,7 +91,7 @@ position: relative;
 
 .header-button {
 position: absolute;
-right: -300px;
+right: -100px;
 bottom: 20px;
 
 padding: 9px 38px 7.6px;
@@ -126,6 +126,7 @@ border-radius: 45px 0px;
   background-image: url(../img/hero.png);
 
   max-width: 1440px;
+  height: 740px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 185px;
