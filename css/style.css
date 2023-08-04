@@ -47,15 +47,15 @@ img {
 
 /* Хедер */
 .header {
-  right: 120px;
-  width: 1440px;
+  position: fixed;
   height: 150px;
-  flex-shrink: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 50;
   border-bottom: 3px solid #fff;
   background: rgba(43, 74, 97, 0.87);
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .logo {
@@ -130,12 +130,19 @@ img {
 .hero {
   background-image: url(../img/hero.png);
 
-  max-width: 1440px;
-  height: 740px;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 185px;
-  padding-bottom: 185px;
+  width: 1440px;
+  height: 740px;
+  flex-shrink: 0;
+  padding: 250px 0;
+  background-repeat: no-repeat;
+  background-color: bisque;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  object-fit: cover;
 }
 
 .hero-tex {
