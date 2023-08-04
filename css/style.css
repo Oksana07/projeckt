@@ -47,8 +47,13 @@ img {
 
 /* Хедер */
 .header {
+  right: 120px;
+  width: 1440px;
+  height: 150px;
+  flex-shrink: 0;
+  border-bottom: 3px solid #fff;
+  background: rgba(43, 74, 97, 0.87);
   position: absolute;
-  
   margin-left: auto;
   margin-right: auto;
 }
@@ -57,14 +62,14 @@ img {
   background-image: url(../img/logo.png);
   background-repeat: no-repeat;
   width: 186px;
-  height: 72px;
+  height: 740px;
   margin-left: 100px;
   margin-top: 39px;
 }
 
 .nav {
   display: flex;
-position: relative;
+  position: relative;
 }
 
 .menu {
@@ -79,7 +84,7 @@ position: relative;
 
 .link:hover,
 .link:focus {
-    color: #94CFFF;
+  color: #94cfff;
 }
 
 .nav-menu {
@@ -90,16 +95,16 @@ position: relative;
 }
 
 .header-button {
-position: absolute;
-right: -100px;
-bottom: 20px;
+  position: absolute;
+  right: -100px;
+  top: 50px;
 
-padding: 9px 38px 7.6px;
+  padding: 9px 38px 7.6px;
 
-color: #26C7EA;
-border-radius: 45px 0px;
-    border: 3px solid #26C7EA;
-    background: #0B0E66;
+  color: #26c7ea;
+  border-radius: 45px 0px;
+  border: 3px solid #26c7ea;
+  background: #0b0e66;
   text-align: justify;
   font-family: "HeadlandOne", sans-serif;
   font-size: 20px;
@@ -107,8 +112,8 @@ border-radius: 45px 0px;
 }
 
 .header-button:hover,
-.header-button:focus{
-    color: #94CFFF;
+.header-button:focus {
+  color: #94cfff;
 }
 
 .list-leng {
