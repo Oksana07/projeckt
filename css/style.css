@@ -47,6 +47,9 @@ img {
 
 /* Хедер */
 .header {
+ background-image: linear-gradient(rgba(43, 74, 97, 0.87),
+    rgba(43, 74, 97, 0.87)),url(../img/header.png);
+
   position: fixed;
   height: 150px;
   width: 100%;
@@ -55,7 +58,7 @@ img {
   top: 0;
   z-index: 50;
   border-bottom: 3px solid #fff;
-  background: rgba(43, 74, 97, 0.87);
+  /* background: rgba(43, 74, 97, 0.87); */
 }
 
 .logo {
@@ -128,18 +131,19 @@ img {
 /* Герой */
 .hero {
   background-image: url(../img/hero.png);
-
+/* padding-op: 600px; */
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 1440px;
+  max-width: 1440px;
   height: 740px;
-  flex-shrink: 0;
-  padding: 250px 0;
+  /* flex-shrink: 0; */
+  padding: 300px 0;
   background-repeat: no-repeat;
   background-color: bisque;
   background-size: cover;
-  background-position: center;
+  background-position: center bottom -150px;
+  /* background-attachment: fixed; */
   object-fit: cover;
 }
 
