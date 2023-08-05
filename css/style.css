@@ -49,7 +49,6 @@ img {
 .header {
  background-image: linear-gradient(rgba(43, 74, 97, 0.87),
     rgba(43, 74, 97, 0.87)),url(../img/header.png);
-
   position: fixed;
   height: 150px;
   width: 100%;
@@ -58,7 +57,6 @@ img {
   top: 0;
   z-index: 50;
   border-bottom: 3px solid #fff;
-  /* background: rgba(43, 74, 97, 0.87); */
 }
 
 .logo {
@@ -131,19 +129,16 @@ img {
 /* Герой */
 .hero {
   background-image: url(../img/hero.png);
-/* padding-op: 600px; */
   display: flex;
   margin-left: auto;
   margin-right: auto;
   max-width: 1440px;
   height: 740px;
-  /* flex-shrink: 0; */
   padding: 300px 0;
   background-repeat: no-repeat;
   background-color: bisque;
   background-size: cover;
   background-position: center bottom -150px;
-  /* background-attachment: fixed; */
   object-fit: cover;
 }
 
@@ -152,11 +147,29 @@ img {
   font-size: 20px;
 }
 
+.hero-tex-1{
+    width: 298px;
+        height: 96px;
+        flex-shrink: 0;
+}
+
+.hero-tex-2{
+    width: 376px;
+        height: 123px;
+        flex-shrink: 0;
+}
+
 .hero-button {
-  color: #26c7ea;
+padding: 10px 31px;
+width: 199px;
+border-radius: 45px 0px;
+border: 3px solid #26C7EA;
+background-color: #0B0E66;
+color: #26C7EA;;
   text-align: center;
   font-family: "HeadlandOne", sans-serif;
   font-size: 24px;
+  margin-bottom: 179px;
 }
 
 /* Передбачення */
