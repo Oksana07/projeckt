@@ -25,6 +25,7 @@ p {
   margin-top: 0;
 }
 
+
 img {
   display: block;
   max-width: 100%;
@@ -43,6 +44,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+
 }
 
 /* Хедер */
@@ -96,7 +98,7 @@ img {
 
 .header-button {
   position: absolute;
-  right: -100px;
+  right: -10px;
   top: 50px;
 
   padding: 9px 38px 7.6px;
